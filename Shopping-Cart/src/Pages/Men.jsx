@@ -7,7 +7,7 @@ import men_5 from "../assets/men-5.jpg";
 import men_6 from "../assets/men-6.jpg";
 function Men() {
   return (
-    <div className="flex justify-between gap-9 flex-wrap w-full">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full">
       <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={men_1} />
       <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={men_2} />
       <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={men_3} />

@@ -7,13 +7,13 @@ import Women_5 from "../assets/women-5.jpg";
 import Women_6 from "../assets/women-6.jpg";
 function Women() {
   return (
-    <div className="flex justify-between gap-9 flex-wrap w-full">
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_1} />
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_2} />
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_3} />
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_4} />
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_5} />
-      <Item itemName="T-shirt Maroon basis-1/4" price="123" imgsrc={Women_6} />
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full">
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_1} />
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_2} />
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_3} />
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_4} />
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_5} />
+      <Item itemName="T-shirt Maroon " price="123" imgsrc={Women_6} />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Women from "./Women";
 
 function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-10">
       <Men />
       <Women />
     </div>
